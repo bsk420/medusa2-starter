@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "build": "turbo build",
-    "start": "turbo run medusa:init --filter=medusa && turbo start",
+    "start": "turbo start",
     "dev": "turbo dev",
     "lint": "turbo lint",
     "generate-env": "cp ./apps/medusa/.env.template ./apps/medusa/.env && cp ./apps/storefront/.env.template ./apps/storefront/.env",
